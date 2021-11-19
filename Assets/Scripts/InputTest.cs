@@ -10,6 +10,7 @@ public class InputTest : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,6 @@ public class InputTest : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Debug.Log("Space key was pressed.");
-
             // numberOne = numberOne * numberTwo;
             // Debug.Log(numberOne);
 
