@@ -9,10 +9,10 @@ public class SpawnerAutomatic : MonoBehaviour
     void Start()
     {
         // this method calls the custom method "InvokeObject" starting after 5 seconds, and then every 2 seconds 
-        InvokeRepeating("InvokeObject", 5.0f, 2.0f);
+        InvokeRepeating("invokingObject", 5.0f, 2.0f);
     }
     
-    private void InvokeObject()
+    private void invokingObject()
     {
         // clone prefab of game object
         Instantiate(invokedObject, transform.position, invokedObject.transform.rotation);
