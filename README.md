@@ -51,6 +51,29 @@ This scenes demonstrates C# basics and Unity basics, such as:
 
 Use the keys shown on the UI to test the scripts.
 
+### Prototype102
+This scenes demonstrates C# basics and Unity basics, such as:
+- Play Audio simple way with PlayOneShoot and public Audio Clip (PlayerController102) 
+- Play Audio with PlayOneShoot (PlayAudio)
+- Play random Audio Clips from an array, if no other Audio Clip is playing (PlayAudio)
+- Pass arguments to methods (PlayAudio) 
+- Use looping particles systems with Play and Stop (UseParticles)
+- Use particle systems to emit particles (UseParticles)
+- Access other scripts (PlayAudio, UseParticles, PlayerController102)
+
+Use the keys shown on the UI to test the scripts.
+
+### Prototype103
+This scenes demonstrates C# basics and Unity basics, such as: 
+- Create a Score system + UI (UpdateScoreTimer + PlayerController103)
+- Create a Countdown timer + UI (UpdateScoreTimer + PlayerController103)
+- Add delay after GameOver with Coroutines (UpdateScoreTimer + PlayerController103)
+- Change displayed UI depending on Game state: Game or GameOver (UpdateScoreTimer + PlayerController103)
+- Use UI Button to Restart  (Restart)
+- Use Animator to set animation states through SetBool and SetTrigger (PlayerController103Animator)
+
+Use the keys shown on the UI to test the scripts. Check Animator window and UI Canvas for setup details.
+
 
 ### Prerequisites
 
