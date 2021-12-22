@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 195781544}
   m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a181fb2a2d0af46ee91fa20289ebf3e5, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 547211e4c1028491ea2368fe64dbe968, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -752,6 +752,7 @@ GameObject:
   - component: {fileID: 1978562944}
   - component: {fileID: 1978562942}
   - component: {fileID: 1978562949}
+  - component: {fileID: 1978562951}
   - component: {fileID: 1978562948}
   - component: {fileID: 1978562943}
   - component: {fileID: 1978562950}
@@ -1000,6 +1001,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1978562951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978562941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d096228a75d4a8d9b554df725d2603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1782617052320068861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3280088172669644119, guid: 0c0d28f0039bc497386c5c286b4454ad, type: 3}
