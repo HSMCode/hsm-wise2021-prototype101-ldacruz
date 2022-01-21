@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115851041795820300, guid: 92da316ba69b24d888c27bdb9010281a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 115851041795820300, guid: 92da316ba69b24d888c27bdb9010281a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -780,7 +780,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 1000, y: 600}
+  m_SizeDelta: {x: 800, y: 1000}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2316364657924244775
 MonoBehaviour:
@@ -815,10 +815,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Create ScriptableObjects for each letter pair.
-
-    Add the Letters to
-    the Lists.'
+  m_Text: "Test: \nPick Yellow letter in scene view and move.\n\nCreate:\nCreate
+    ScriptableObject for each letter pair in SOLetters folder.\nAssign the Letter
+    prefabs for Blue and Yellow to it.\n\nCreate ScriptableObject for each correct
+    word pair in SOLetters folder.\nAdd the SOLetters for each letter of the word
+    to the list in correct order.\n\nHitLettersCheckYellow script is attached to
+    Yellow letters, there SOLetters and desired word can be switched. \n\nCheck for
+    correct word could be moved out of this script into another one."
 --- !u!1001 &2751386816284835122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -832,7 +835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5242390715193562168, guid: a3270671722c048299885e1c7726fc30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5242390715193562168, guid: a3270671722c048299885e1c7726fc30, type: 3}
       propertyPath: m_LocalPosition.y
@@ -893,7 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7871461753129385111, guid: e089ef9c2cc2c4d96bef3dc6fbcc2987, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7871461753129385111, guid: e089ef9c2cc2c4d96bef3dc6fbcc2987, type: 3}
       propertyPath: m_LocalPosition.y
@@ -946,7 +949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433548872022195973, guid: c715f2d8ca60044908e7e062392fccd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 433548872022195973, guid: c715f2d8ca60044908e7e062392fccd8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1003,7 +1006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2277181040072750423, guid: 15af3109a57094c1b8009f62f93aaa74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2277181040072750423, guid: 15af3109a57094c1b8009f62f93aaa74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1060,7 +1063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4043020547947528202, guid: acbb41c64dbe44217b181873094877f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4043020547947528202, guid: acbb41c64dbe44217b181873094877f0, type: 3}
       propertyPath: m_LocalPosition.y
